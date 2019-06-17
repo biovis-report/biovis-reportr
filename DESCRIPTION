@@ -1,0 +1,22 @@
+Package: ChoppyReportR
+Type: Package
+Title: A R SDK for Choppy Report System.
+Description: A R SDK for Choppy Report System. It contains color, input, config
+    module. Color module is used to provide color palettes. Input module is used 
+    to handle input data. Config module is used to handle config file.
+Version: 0.1.0
+Date: 2019-06-09
+Authors@R: person("Jingcheng", "Yang", role=c("aut", "cre"), email="yjcyxky@163.com")
+Author: Jingcheng Yang [aut, cre]
+Maintainer: Jingcheng Yang <yjcyxky@163.com>
+URL: https://github.com/go-choppy/ChoppyReportR
+BugReports: https://github.com/go-choppy/ChoppyReportR/issues
+License: AGPL 3.0 + file LICENSE
+Depends:
+    R (>= 3.0.0)
+Imports:
+Suggests:
+    covr,
+    testthat
+RoxygenNote: 6.1.0
+Roxygen: list(markdown = TRUE)
