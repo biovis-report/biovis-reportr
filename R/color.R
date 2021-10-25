@@ -1,6 +1,6 @@
 #' The Color Utility
 #'
-#' Get color function from ChoppyReportR namespace.
+#' Get color function from BioVisReportR namespace.
 #'
 #' @param palname palette name
 #' Currently there is 19 available options: 
@@ -40,7 +40,7 @@
 #' \url{https://nanx.me/ggsci/articles/ggsci.html}
 #'
 #' @examples
-#' library("ChoppyReportR")
+#' library("BioVisReportR")
 #' nejm_fill_func <- get_color_func('nejm', 'fill')
 get_color_func <- function(palname='npg', data_class='discrete', mode='fill') {
     modes <- get_mode_lst()
@@ -56,7 +56,7 @@ get_color_func <- function(palname='npg', data_class='discrete', mode='fill') {
     if (mode %in% modes) {
         if (palname %in% palnames) {
             func_name <- paste('scale', mode, palname, sep='_')
-            func <- getFromNamespace(func_name, 'ChoppyReportR')
+            func <- getFromNamespace(func_name, 'BioVisReportR')
             return(func)
         } else {
             stop(paste("No such palname:", palname))
@@ -75,7 +75,7 @@ get_color_func <- function(palname='npg', data_class='discrete', mode='fill') {
 #' @author Jingcheng Yang <\email{yjcyxky@@163.com}>
 #' 
 #' @examples
-#' library("ChoppyReportR")
+#' library("BioVisReportR")
 #' modes <- get_mode_lst()
 get_mode_lst <- function() {
     return(c('color', 'fill'))
@@ -90,7 +90,7 @@ get_mode_lst <- function() {
 #' @author Jingcheng Yang <\email{yjcyxky@@163.com}>
 #' 
 #' @examples
-#' library("ChoppyReportR")
+#' library("BioVisReportR")
 #' palettes <- get_discrete_pal_lst()
 get_discrete_pal_lst <- function() {
     return(c(
@@ -123,7 +123,7 @@ get_discrete_pal_lst <- function() {
 #' @author Jingcheng Yang <\email{yjcyxky@@163.com}>
 #' 
 #' @examples
-#' library("ChoppyReportR")
+#' library("BioVisReportR")
 #' palettes <- get_continuous_pal_lst()
 get_continuous_pal_lst <- function() {
     return(c(
@@ -174,7 +174,7 @@ get_continuous_pal_lst <- function() {
 #' @author Jingcheng Yang <\email{yjcyxky@@163.com}>
 #' 
 #' @examples
-#' library("ChoppyReportR")
+#' library("BioVisReportR")
 #' palettes <- get_continuous_palette('material', palettes = 'red')
 get_continuous_palette <- function(palname, palettes = NULL) {
     palettes <- c(

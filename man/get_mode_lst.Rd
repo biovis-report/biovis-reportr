@@ -10,7 +10,7 @@ get_mode_lst()
 Show all supported modes
 }
 \examples{
-library("ChoppyReportR")
+library("BioVisReportR")
 modes <- get_mode_lst()
 }
 \author{

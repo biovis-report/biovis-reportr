@@ -37,7 +37,7 @@
 #' @author Jingcheng Yang <\email{yjcyxky@@163.com}>
 #'
 #' @examples
-#' library("ChoppyReportR")
+#' library("BioVisReportR")
 #' theme <- get_theme(c(1:16), theme_name = 'npg')
 get_theme <- function(data, theme_name = 'npg', threshold = 10, mode = 'fill',
                       reverse = False, palette = NULL, alpha = 1) {
@@ -82,7 +82,7 @@ get_theme <- function(data, theme_name = 'npg', threshold = 10, mode = 'fill',
 #' @author Jingcheng Yang <\email{yjcyxky@@163.com}>
 #'
 #' @examples
-#' library("ChoppyReportR")
+#' library("BioVisReportR")
 #' theme <- get_basic_theme(size_ratio = 0.9)
 get_basic_theme <- function(size_ratio = 1, angle = 0, ...) {
     custom_theme <- theme_classic(...) +
@@ -107,7 +107,7 @@ get_basic_theme <- function(size_ratio = 1, angle = 0, ...) {
 #' @author Jingcheng Yang <\email{yjcyxky@@163.com}>
 #'
 #' @examples
-#' library("ChoppyReportR")
+#' library("BioVisReportR")
 #' is.wholenumber(c(1:16))
 is.wholenumber <- function(x, tol = .Machine$double.eps^0.5) {
     abs(x - round(x)) < tol
@@ -125,7 +125,7 @@ is.wholenumber <- function(x, tol = .Machine$double.eps^0.5) {
 #' @author Jingcheng Yang <\email{yjcyxky@@163.com}>
 #'
 #' @examples
-#' library("ChoppyReportR")
+#' library("BioVisReportR")
 #' is.discrete(c(1:16))
 is.discrete <- function(data, threshold = 10) {
     if (is.continuous(data, threshold)) {
@@ -147,7 +147,7 @@ is.discrete <- function(data, threshold = 10) {
 #' @author Jingcheng Yang <\email{yjcyxky@@163.com}>
 #'
 #' @examples
-#' library("ChoppyReportR")
+#' library("BioVisReportR")
 #' is.continuous(c(1:16))
 is.continuous <- function(data, threshold = 10) {
     # It is a continuous variable when the number of unique element is greater than 10

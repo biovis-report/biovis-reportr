@@ -1,4 +1,4 @@
-Package: ChoppyReportR
+Package: BioVisReportR
 Type: Package
 Title: A R SDK for Choppy Report System.
 Description: A R SDK for Choppy Report System. It contains color, input, config
@@ -9,8 +9,8 @@ Date: 2019-06-09
 Authors@R: person("Jingcheng", "Yang", role=c("aut", "cre"), email="yjcyxky@163.com")
 Author: Jingcheng Yang [aut, cre]
 Maintainer: Jingcheng Yang <yjcyxky@163.com>
-URL: https://github.com/go-choppy/ChoppyReportR
-BugReports: https://github.com/go-choppy/ChoppyReportR/issues
+URL: https://github.com/go-choppy/BioVisReportR
+BugReports: https://github.com/go-choppy/BioVisReportR/issues
 License: AGPL 3.0 + file LICENSE
 Depends:
     R (>= 3.0.0)

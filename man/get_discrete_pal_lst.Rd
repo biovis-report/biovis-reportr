@@ -10,7 +10,7 @@ get_discrete_pal_lst()
 Show all supported palettes.
 }
 \examples{
-library("ChoppyReportR")
+library("BioVisReportR")
 palettes <- get_discrete_pal_lst()
 }
 \author{

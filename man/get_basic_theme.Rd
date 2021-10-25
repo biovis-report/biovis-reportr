@@ -15,7 +15,7 @@ get_basic_theme(size_ratio = 1, angle = 0, ...)
 Auto generate basic theme for user.
 }
 \examples{
-library("ChoppyReportR")
+library("BioVisReportR")
 theme <- get_basic_theme(size_ratio = 0.9)
 }
 \author{

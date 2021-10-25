@@ -45,7 +45,7 @@ Journal and Sci-Fi Themed Color Palettes for ggplot2} for details.}
 Show palette supported by Continuous Color Palettes.
 }
 \examples{
-library("ChoppyReportR")
+library("BioVisReportR")
 palettes <- get_continuous_palette('material', palettes = 'red')
 }
 \author{

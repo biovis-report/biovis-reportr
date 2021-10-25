@@ -47,7 +47,7 @@ Journal and Sci-Fi Themed Color Palettes for ggplot2} for details.}
 Auto generate theme for user.
 }
 \examples{
-library("ChoppyReportR")
+library("BioVisReportR")
 theme <- get_theme(c(1:16), theme_name = 'npg')
 }
 \author{

@@ -25,9 +25,9 @@ vignette: >
 >
 > --- Claude Monet
 
-`ChoppyReportR` color module (Based on ggsci) offers a collection of high-quality color palettes inspired by
+`BioVisReportR` color module (Based on ggsci) offers a collection of high-quality color palettes inspired by
 colors used in scientific journals, data visualization libraries,
-science fiction movies, and TV shows. The color palettes in `ChoppyReportR` color module
+science fiction movies, and TV shows. The color palettes in `BioVisReportR` color module
 are available as `ggplot2` scales. For all the color palettes,
 the corresponding scales are named as:
 
@@ -120,11 +120,11 @@ Furthermore, we provide some helpers, such as:
 ### Discrete Color Palettes
 
 We will use scatterplots with smooth curves, and bar plots to demonstrate
-the discrete color palettes in `ChoppyReportR` color module.
+the discrete color palettes in `BioVisReportR` color module.
 
 
 ```r
-library("ChoppyReportR")
+library("BioVisReportR")
 library("ggplot2")
 library("gridExtra")
 
@@ -419,7 +419,7 @@ grid.arrange(p1_simpsons, p2_simpsons, ncol = 2)
 ### Continuous Color Palettes
 
 We will use a correlation matrix visualization (a special type of heatmap)
-to demonstrate the continuous color palettes in `ChoppyReportR` color module.
+to demonstrate the continuous color palettes in `BioVisReportR` color module.
 
 
 ```r
@@ -514,7 +514,7 @@ of their saturation levels.
 
 ### Non-ggplot2 Graphics
 
-To apply the color palettes in `ChoppyReportR` color module to other graphics systems
+To apply the color palettes in `BioVisReportR` color module to other graphics systems
 (such as base graphics and lattice graphics), simply use the
 palette generator functions in the table above. For example:
 

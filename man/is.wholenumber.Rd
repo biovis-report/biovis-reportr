@@ -13,7 +13,7 @@ is.wholenumber(x, tol = .Machine$double.eps^0.5)
 Each element is number class.
 }
 \examples{
-library("ChoppyReportR")
+library("BioVisReportR")
 is.wholenumber(c(1:16))
 }
 \author{

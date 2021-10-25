@@ -15,7 +15,7 @@ is.discrete(data, threshold = 10)
 Each element is discrete class.
 }
 \examples{
-library("ChoppyReportR")
+library("BioVisReportR")
 is.discrete(c(1:16))
 }
 \author{

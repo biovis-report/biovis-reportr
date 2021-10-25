@@ -40,10 +40,10 @@ Currently there is 2 available options:
 \item \code{"color"}}}
 }
 \description{
-Get color function from ChoppyReportR namespace.
+Get color function from BioVisReportR namespace.
 }
 \examples{
-library("ChoppyReportR")
+library("BioVisReportR")
 nejm_fill_func <- get_color_func('nejm', 'fill')
 }
 \references{

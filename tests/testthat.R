@@ -1,2 +1,2 @@
 library(testthat)
-test_check("ChoppyReportR")
+test_check("BioVisReportR")

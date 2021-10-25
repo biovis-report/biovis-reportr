@@ -15,7 +15,7 @@ is.continuous(data, threshold = 10)
 Each element is continuous class.
 }
 \examples{
-library("ChoppyReportR")
+library("BioVisReportR")
 is.continuous(c(1:16))
 }
 \author{
