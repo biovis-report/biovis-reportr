@@ -4,8 +4,7 @@
 \alias{get_color_func}
 \title{The Color Utility}
 \usage{
-get_color_func(palname = "npg", data_class = "continuous",
-  mode = "fill")
+get_color_func(palname = "npg", data_class = "discrete", mode = "fill")
 }
 \arguments{
 \item{palname}{palette name

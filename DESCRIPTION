@@ -14,9 +14,10 @@ BugReports: https://github.com/go-choppy/BioVisReportR/issues
 License: AGPL 3.0 + file LICENSE
 Depends:
     R (>= 3.0.0)
+    ggplot2
 Imports:
 Suggests:
     covr,
     testthat
-RoxygenNote: 6.1.0
+RoxygenNote: 7.1.1
 Roxygen: list(markdown = TRUE)

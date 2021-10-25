@@ -4,8 +4,15 @@
 \alias{get_theme}
 \title{The Theme Utility}
 \usage{
-get_theme(data, theme_name = "npg", threshold = 10, mode = "fill",
-  reverse = False, palette = NULL, alpha = 1)
+get_theme(
+  data,
+  theme_name = "npg",
+  threshold = 10,
+  mode = "fill",
+  reverse = False,
+  palette = NULL,
+  alpha = 1
+)
 }
 \arguments{
 \item{data}{the data that is mapping with color.}
